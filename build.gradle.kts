@@ -21,6 +21,11 @@ subprojects {
         targetCompatibility = jdkVersion
     }
 
+    dependencies {
+        testImplementation(group = "org.junit.jupiter", name = "junit-jupiter", version = "5.6.2")
+        testImplementation(group = "org.assertj", name = "assertj-core", version = "3.11.1")
+    }
+
     // This is needed in order to execute the JUnit tests in src/test/java
     tasks {
         test {
