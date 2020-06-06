@@ -21,8 +21,6 @@ subprojects {
         targetCompatibility = jdkVersion
     }
 
-    dependencies {
-    }
     // This is needed in order to execute the JUnit tests in src/test/java
     tasks {
         test {
